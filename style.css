@@ -1,0 +1,44 @@
+/* .new{
+    color: chocolate;
+    background-color: #FADFA1;
+} */
+body{
+    background-image: url("./rowoon/pexels-vince-2265876.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+} 
+/* .boxs{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+} */
+/* .text{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 2rem;
+} */
+ .play-letter{
+    letter-spacing: 10px;
+    word-spacing: 22px;
+    line-height: 23px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    /* color: burlywood; */
+ }
+ .list-style{
+    list-style-type: disc;
+    /* list-style: none; */
+    list-style-position: outside;
+    font-size: 20px;
+    color: crimson;
+ }
+ .opacity{
+    background-color: blue;
+ }
+ .opacity 1{
+
+ }
+

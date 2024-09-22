@@ -1,0 +1,197 @@
+    h1{
+
+    text-transform: uppercase;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 20px;
+    /* position: fixed; */
+    /* padding: 10px 20px; */
+    /* right: -10px; */
+
+}
+.fixed{
+    position: fixed; /* Fixes the position relative to the viewport */
+  top: -21px; /* Distance from the top */
+  left: 157px; /* Distance from the left */
+  width: 100px; /* Set width */
+  height: auto; /* Maintain aspect ratio */
+  z-index: 1000; 
+}
+.setbg{
+    background-image: url("./rowoon/bg.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+.styling{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: left;
+    width: 421px;
+    position: absolute;
+    height: 150px;
+    color:black;
+    left: auto;
+}
+.more{
+    width: 600px;
+    padding: 300px 700px;
+    /* right: 5px; */
+    /* right: 10px; */
+    text-align: right;
+    height: 150px;
+    
+}
+.para{
+    width: 700px;
+    padding: 600px 7px;
+    text-align: left;
+}
+img{
+    position: absolute;
+    right: 657px;
+    /* border: 5px solid; */
+    border-radius: 9px;
+    padding: 27px;
+    width: 180px;
+    
+}
+.image{
+    padding: 4px;
+    right: 400px;
+   
+}
+.setimg{
+    padding: 29px;
+    right: 70px;
+    width: 153px;
+    height: 153px;
+}
+.set{
+    position:absolute;
+    padding: 366px 768px;
+    width: 444px;
+    height: 200px;
+}
+.js{
+    padding: 550px 7px;
+    width: 458px;
+    height: 195px;
+}
+.setbackground{
+    content: "";
+    background-image: url("./rowoon/yellow-distressed-wall-texture-background_1017-18215.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-position: right bottom,left top;
+    overflow: hidden;
+    height: 700px;
+    z-index: -1;
+    
+
+}
+h2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color:black;
+    letter-spacing: 20px;
+    margin-bottom: 10px;
+
+}
+.settable{
+    position: absolute;
+    border: 14px solid white;
+    border-style: inset;
+    border-radius: 20px;
+    margin-top: -23px;
+    height: 20px;
+    /* bottom: 5px; */
+    right: 166px;
+    /* padding: 20px 40px; */
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+.h2new{
+    display: flex;
+    position: absolute;
+    width: 587px;
+    font-family: fantasy;
+    right: -2px;
+    height: 147px;
+    font-weight:bolder;
+}
+.formnew{
+    position: absolute;
+    padding-top: 144px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    right: 111px;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: left;
+    height: 25px;
+}
+
+.contact-box input,
+.contact-box textarea {
+  width: 100%;
+  height: 50%;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 23px;
+  font-size:20px;
+  
+}
+.contact-box label{
+    font-size: 20px;
+}
+.contact-box form{
+    width: 20px;
+}
+
+.formbg{
+    background-image: url("./rowoon/bg3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-position: right bottom,left top;
+    overflow: hidden;
+    height: 700px;
+    z-index: -1;
+    }
+    .my-button {
+        background-color: black; /* Green background */
+        border: 2px solid white;              /* Remove borders */
+        color: white;             /* White text */
+        padding: 15px 32px;       /* Top and bottom padding, left and right padding */
+        text-align: center;       /* Center the text */
+        text-decoration: none;     /* Remove underline */
+        display: inline-block;     /* Make the button inline */
+        font-size: 16px;          /* Set font size */
+        margin: 4px 2px;          /* Add some margin */
+        cursor: pointer;          /* Pointer cursor on hover */
+        border-radius: 4px;       /* Rounded corners */
+        transition: background-color 0.3s; /* Smooth background color transition */
+    }
+    .my-button:hover {
+        background-color: black; /* Darker green on hover */
+    }
+    
+    .my-button:active {
+        background-color: #3e8e41; /* Even darker green when active */
+    }
+
+
+
