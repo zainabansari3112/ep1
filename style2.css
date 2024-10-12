@@ -1,0 +1,318 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* background-image: url("./rowoon/img/billboard.jpg"); */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+}
+.bg{
+    background-image: url("./rowoon/img/billboard.jpg");
+    background-size: cover;
+    height: 100%
+     
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    /* text-decoration: none; */
+    /* text-transform: none; */
+    background-color: gray;
+    opacity: 0.6;
+    padding: 2px 20px;
+    gap: 20px;
+}
+.logo{
+    font-size: 40px;
+}
+
+.logo img {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 45px;
+    height: 62px;
+      margin: 3px 6px;
+}
+
+.nav-links {
+    /* list-style: none; */
+    display: flex;
+    position: absolute;
+    /* flex-direction: row; */
+    text-decoration: none;
+    /* justify-content: space-between; */
+    /* align-items: end; */
+    /* word-spacing: 10px; */
+     margin: 0;
+     /* padding-right: 20px; */
+    /* margin-right: 20px; */
+}
+.items{
+    /* position: absolute; */
+    list-style: none;
+    font-size: 15px;
+    font-family: monospace;
+    /* text-decoration: none; */
+    text-transform: capitalize;
+    
+
+}
+
+
+
+
+
+.center{
+    display: flex;
+    justify-content: space-between;
+    background-color:#939185;
+    font-weight: bolder;
+    
+    color: #1E201E;
+    height: 60px;
+    opacity: 0.6;
+    font-size: 15px;
+    font-weight: 700px;
+    font-family:  Pacifico;
+    text-transform: capitalize;
+}
+.p{
+    align-items: center;
+    padding:13px 17px 13px 14px ;
+}
+
+.styled-button {
+    background-color:#08aadb; /* Green background */
+    color: white; /* White text */
+    padding: 13px 17px 13px 14px; /* Some padding */
+    margin-top: 7px;
+    text-align: center; /* Center the text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Inline-block element */
+    font-size: 13px; /* Font size */
+    text-transform: uppercase;
+    /* Some margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    border: 5px solid #3D3C42;
+    width: 229px;
+    height: 50.1px;
+
+    
+    
+}
+
+.styled-button:hover {
+    /* background-color: #45a049;  */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.styled-button:active {
+    transform: scale(0.95); /* Slightly shrink on click */
+}
+
+.grid-container {
+    display: grid;
+    /* display: inline-grid; */
+    /* grid-column-gap: 20px; */
+    /* grid-row-gap: 20px; */
+    /* ..........r     c */
+    grid-gap: 50px 100px;
+    grid-template-columns: auto auto auto;
+    /* border: 2px solid black; */
+    padding: 10px;
+    margin-bottom: 90px;
+    margin-top: 87px;
+    align-items: center;
+}
+
+/* .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+} */
+
+.item1 {
+   align-items: center;
+   text-align: center;
+   /* border: 2px solid black; */
+
+}
+.item2 {
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid black; */
+ 
+ }
+ .item3 {
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid black; */
+ 
+ }
+ .some{
+    align-items: center;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: sans-serif; 
+    font-weight: 500;
+    
+ }
+/* .item2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+} */
+/* .item3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+    grid-row-start: 3;
+    grid-row-end: 5;
+
+} */
+ 
+ .flex-container {
+    display: flex;
+    /* Adjust spacing between items */
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.flex-item {
+    flex: 1; /* Allow images to grow equally */
+    max-width: 266px; /* Set a max-width to maintain aspect ratio */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Cover the area without distorting the image */
+    overflow: hidden; /* Optional: add some spacing around images */
+    
+}
+.newgrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:20px;
+    padding: 10px;
+    margin-bottom: 90px;
+    margin-top: 87px;
+    align-items: center;
+    
+}
+.newone{
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.imge{
+    /* border: 2px solid blueviolet; */
+    border-radius: 50px;
+}
+.flex{
+    display: flex;
+    flex: 1; /* Allow images to grow equally */
+    max-width: 86rem; /* Set a max-width to maintain aspect ratio */
+    height: auto; /* Maintain the aspect ratio */
+    /* Cover the area without distorting the image */
+    overflow: hidden; 
+    width: 20px;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    gap: 20px;
+}
+.footernew{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 173px;
+    padding-left: 101px;
+    gap: 217px;
+    color: black;
+    background-color: #555;
+    color: #fff;
+}
+.studio{
+    background-color: #555;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    padding-top: 50px;
+    color: #fff;
+    
+}
+/* Mobile Styles */
+@media (max-width: 600px) {
+    .navbar {
+        background: #e00707;
+        /* flex-direction: column; */
+        
+    }
+    .bg{
+        right: 20px;
+    }
+    .logo{
+        flex-direction: column;
+    }
+    .items {
+        font-size: 14px;
+        /* flex-direction: column; */
+
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 601px) and (max-width: 900px) {
+    .navbar {
+        background: #e78403;
+        /* flex-direction: column; */
+    }
+    .logo{
+        flex-direction: column;
+    }
+    .items {
+        font-size: 16px;
+        /* flex-direction: column; */
+
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 901px) {
+    .navbar {
+        background: #4CAF50;
+        /* flex-direction: column; */
+        
+    }
+    
+    .items {
+        font-size: 18px;
+        /* flex-direction: column; */
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
